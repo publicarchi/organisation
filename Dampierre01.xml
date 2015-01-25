@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd">
+    <control>
+        <recordId>FRANCHAN00055</recordId>
+        <!-- pas besoin -->
+        <!-- <otherRecordId></otherRecordId>-->
+        
+        <maintenanceStatus>new</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyCode>FR-ANCHAN</agencyCode>
+            <agencyName>Archives nationales (centre de Paris)</agencyName>
+        </maintenanceAgency>
+        <languageDeclaration>
+            <language languageCode="fre"></language>
+            <script scriptCode="Latn"></script>
+        </languageDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR440061</abbreviation>
+            <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                Nome conforme à la norme AFNOR etc.
+            </citation>
+        </conventionDeclaration>
+       
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime>2013-02-19</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Emmanuel Chateau</agent>
+                <eventDescription>La notice XML créée par Emmanuel Chateau à partir de l'exemple fourni dnas la norme</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime>2004-02</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Claire Sybille</agent>
+                <eventDescription>La notice est créée par Claire Sibille, conservateur des archives de France</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        
+        <sources>
+            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                <sourceEntry>CHAIX-D’EST-ANGE (Gustave), Dictionnaire des familles françaises anciennes ou notables à la fin du XIXeP P siècle, Evreux, 1903-1929, 20 vol. in-8, t. 13, p. 75-81.</sourceEntry>
+                <sourceEntry>LARQUIER-ROCHEFORT (Bernard de), Dictionnaire de Dampierre, descendance complète d'Aymar, marquis de Dampierre,... de 1787 à 1978, Paris : B. de Larquier-Rochefort, 1979, 341 p.</sourceEntry>
+                <sourceEntry>LARQUIER-ROCHEFORT (Bernard de), Les Dampierre en Saintonge. Préface du Marquis de Dampierre, Paris, “ Les Seize ”, Édition du Palais-Royal, [1968?], X, 384 p. illustr., généal. tables, planches, 24 cm.</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType>family</entityType>
+            <nameEntry localType="patronyme1">
+                <part xml:lang="fr">Dampierre, famille de (seigneurs de Biville-la-Baignarde, la Forest, Grainville, Millancourt, Montlandrin, Sainte-Agathe, Sain-Suplix et Sélincourt, puis marquis et comtes de Dampierre)</part>
+                <authorizedForm>AFNOR44061</authorizedForm>
+            </nameEntry>
+            <nameEntry>
+                <part xml:lang="fr">Dampierre-Millancourt</part>
+            </nameEntry>
+            <nameEntry>
+                <part xml:lang="fr">Dampierre de Millancourt</part>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <date notBefore="1101">12e siècle à nos jours</date>
+            </existDates>
+            <function>
+            </function>
+            <structureOrGenealogy>
+                <outline>
+                    <level>
+                        <item>
+                            <span></span>
+                        </item>
+                        <level></level>
+                    </level>
+                </outline>
+            </structureOrGenealogy>
+            <biogHist>
+                <p>La famille de Dampierre, qui compte encore aujourd’hui des représentants, est
+                    issue d’une maison chevaleresque de ce nom, citée dès le XIIeP P siècle en
+                    Haute-Normandie. Ses armes sont d’ “ argent à trois losanges de sable, 2 et 1 ”.
+                    Elle a été maintenue dans sa noblesse à l’intendance de Picardie, le 21 mai 1667
+                    et le 15 juin 1700, sur preuves remontant seulement à Adrien de Dampierre,
+                    seigneur de Sainte-Agathe d’Aliermont, marié en 1525 à Isabeau Bernard, dont la
+                    descendance a formé plusieurs rameaux.</p>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation>
+                <relationEntry>Abadie de Saint Martin</relationEntry>
+                <placeEntry></placeEntry>
+                <descriptiveNote>
+                    <p>
+                        <span></span>
+                    </p>
+                </descriptiveNote>
+            </cpfRelation>
+            <resourceRelation>
+                <relationEntry></relationEntry>
+                <placeEntry></placeEntry>
+                <descriptiveNote>
+                    <p>
+                        <span></span>
+                    </p>
+                </descriptiveNote>
+            </resourceRelation>
+            <functionRelation>
+                <relationEntry></relationEntry>
+                <placeEntry></placeEntry>
+                <descriptiveNote>
+                    <p>
+                        <span></span>
+                    </p>
+                </descriptiveNote>
+            </functionRelation>
+        </relations>
+        <alternativeSet>
+            <setComponent>
+                <componentEntry></componentEntry>
+                <descriptiveNote>
+                    <p>
+                        <span></span>
+                    </p>
+                </descriptiveNote>
+            </setComponent>
+        </alternativeSet>
+    </cpfDescription>
+</eac-cpf>
