@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <control>
+        <recordId>emchateau0001</recordId>
+        <!--<otherRecordId></otherRecordId>-->
+        <maintenanceStatus>new</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>emchateau</agencyName>
+        </maintenanceAgency>
+        
+        <languageDeclaration>
+            <language languageCode="fre"></language>
+            <script scriptCode="Latn"></script>
+        </languageDeclaration>
+        <conventionDeclaration><!-- TODO -->
+            <abbreviation>AFNOR440061</abbreviation>
+            <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                Nom conforme à la norme AFNOR etc.
+            </citation>
+        </conventionDeclaration>
+        
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime>2015-01-25</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Emmanuel Chateau</agent>
+                <eventDescription>Notice XML créée dans le cadre d'un prototype des Archives Nationales</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        
+        <sources>
+            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                <sourceEntry>BERTHOLLE, Pierre. "La création du Ministère à l’époque de la Révolution (1789-1799)." In Histoire du Ministère de l’Intérieur de 1790 à nos jours, par un groupe de préfets et de hauts fonctionnaires du ministère. Paul Bouteiller (dir). Paris : La Documentation française, 1993.</sourceEntry>
+                <!-- TODO lister les sources -->
+            </source>
+            <source>
+                <sourceEntry>GODECHOT Jacques. Les institutions de la France sous la Révolution et l’Empire. Paris : Presses universitaires de France. 4e éd. 1989 [1ère éd. 1951]. p. 84.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>MACHELON Jean-Pierre. « L’administration sous la Révolution française : Entre l’exécutif et le législatif ». La Revue administrative, 44e Année, n° 261, mai-juin 1991, pp. 205-212.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>KAWA Catherine. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996. p. 70.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>CHATEAU Emmanuel. L’administration de l’architecture publique en France au XIXe siècle. Thèse de l’EPHE sous la direction de Jean-Michel Leniaud, 2016.</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType>corporateBody</entityType>
+            <nameEntry>
+                <part>France. Ministère de l’Intérieur (1791-1794)</part>
+                <authorizedForm>conventionDeclaration</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1791">1791</fromDate>
+                    <toDate standardDate="1794-04-18">29 germinal an II (18 avril 1794)</toDate>
+                </dateRange>
+            </existDates>
+            <place>
+                <placeEntry>Chargé des affaires intérieures de la France, le Ministère de l'intérieur avait la surveillance de tous les actes des départements.</placeEntry>
+            </place>
+            <legalStatus>
+                <term>Ministère</term>
+            </legalStatus>
+            <function>
+                <term>surveillance</term><!-- tutelle ?-->
+                <descriptiveNote>
+                    <p>Le Ministère de l'intérieur avait la surveillance de tous les actes administratifs des autorités locales.</p>
+                </descriptiveNote>
+            </function>
+            <occupation>
+                <term>Ministère</term>
+                <descriptiveNote>
+                    <p>D'après les articles 7 et 8 du décret du 27 avril 1791, il est chargé de :</p>
+                    <p>1° De faire parvenir toutes les lois aux corps administratifs ;</p>
+                    <p>2° De maintenir le régime constitutionnel, et les lois touchant les assemblées de communes par communautés entières ou par sections, les assemblées primaires et les assemblées électorales, les corps administratifs, les municipalités, la constitution civile du clergé, et provisoirement l’instruction et l’éducation publiques ; sans que de la présente disposition on puisse jamais induire que les questions sur la régularité des assemblée et la validité des élections, ou sur l’activité et l’éligibilité des citoyens, puissent être soumises au jugement du pouvoir exécutif.</p>
+                    <p>3° Il aura la surveillance et l’exécution des lois relatives à la sûreté et à la tranquillité de l’intérieur de l’État ;</p>
+                    <p>4° Le maintien et l’exécution des lois touchant les mines, minières et carrières, les ponts et chaussées et autres travaux publics, la conservation de la navigation et du flottage sur les rivières, et du halage sur les bords ;</p>
+                    <p>5° La direction des objets relatifs aux bâtiments et édifices publics, aux hôpitaux, établissements et ateliers de charité, et à la répression de la mendicité et du vagabondage ;</p>
+                    <p>6° La surveillance et l’exécution des lois relativement à l’agriculture, au commerce de terre et de mer, aux produits des pêches sur les côtes et des grandes pêches maritimes ; à l’industrie ; aux arts et inventions ; fabriques et manufactures, ainsi qu’aux primes et encouragements qui pourraient avoir lieu sur ces divers objets ;</p>
+                    <p>7° Il sera tenu de correspondre avec les corps administratifs, de les rappeler à leurs devoirs, de les éclairer sur les moyens de faire exécuter les lois, à la charge de s’adresser au Corps législatif, dans tous les cas où elles auront besoin d’interprétation ;</p>
+                    <p>8° De rendre compte tous les ans au Corps législatif de [p. 216] l’état de l’administration générale, et des abus qui auraient pu s’y introduire.</p>
+                    <p>Il soumettra à l’examen et à l’approbation du Roi les procès-verbaux des conseils des départements, conformément à l’article 5 de la section troisième du décret sur les assemblées administratives[1] [1] « 25 mai 1791. Loi relative à l’organisation du ministère, Décret de l’Assemblée nationale, du 27 avril 1791 » dans Lois et actes du gouvernement. Paris, imprimerie royale, 1834-1835. T. III, 213 et suiv.</p>
+                </descriptiveNote>
+            </occupation>
+            <mandate>
+                <term>Décret du 27 avril 1791 relatif à l’organisation des ministères, promulgué le 25 mai 1791 après l’acceptation du roi.</term>
+            </mandate>
+            <structureOrGenealogy>
+                <p>1. Composition. 6 divisions</p><!-- TODO détailler -->
+                <p>2. Fonctionnement.</p>
+            </structureOrGenealogy>
+            <biogHist>
+                <p>Le pouvoir constituant différait des pouvoirs ordinaires puisqu’il concentrait à la fois le législatif et l’exécutif. Les États généraux s’étaient transformés en Assemblée nationale constituante le 17 juin 1789. L’assemblée allait, petit à petit, créer de nombreux comités qui allaient doubler les ministères et, bientôt même, se substituer à eux pour gouverner la France. L’assemblée allait devenir toute puissante, elle serait bientôt forcément consultée pour le moindre ouvrage. Pourtant, le régime constitutionnel de 1791 ne portait pas de caractère parlementaire. C’était par l’intermédiaire des ministres que le roi exerçait en fait son pouvoir exécutif. Ainsi le gouvernement – c’est-à-dire le roi assisté de ses ministres – dirigeait l’administration, s’occupait du maintien de l’ordre et de la tranquillité publique. Les ministres étaient choisis et révoqués par lui et ne dépendaient que de lui. Mais l’assemblée avait cherché à affaiblir l’exécutif en n’instaurant ni conseil des ministres régulier, ni président du conseil. Les ministres travaillaient isolément et devaient rendre compte de leur administration à l’Assemblée.</p>
+                <p>Les attributions du ministère de l’intérieur furent définies par le décret du 27 avril 1791 relatif à l’organisation des ministères, promulgué le 25 mai 1791 après l’acceptation du roi. Six ministères étaient définis par le pouvoir législatif (justice, intérieur, contributions et revenus publics, guerre, marine et affaires étrangères).</p>
+                <p>Dès lors, le ministère de l’Intérieur héritait en partie (avec le ministère des Contributions publiques) des compétences anciennement dévolues au Contrôleur général des finances et en partie d’attributions nouvelles. Outre la Police assurant la sûreté de l’État, le département de l’Intérieur apparaissait comme un coordinateur qui réalisait l’articulation entre l’Assemblée et le pays réel organisé dans ses nouveaux cadres, si l’on se réfère à la place accordée dans le décret à la nouvelle administration départementale et communale dont le ministre devait assumer la mise en œuvre et le suivi. Ce qui nous intéresse surtout ici c’est que le ministère rassemblait dans ses attributions l’ensemble des compétences liées à l’architecture, aux travaux publics et aux mines. Le ministère de l’Intérieur se trouvait aussi chargé de l’entretien du service public, charge qui pouvait l’amener à développer en son sein des secteurs administratifs technocratiques.</p>
+                <p>Cependant, il faut noter « la volonté des Constituants de borner strictement le rôle du ministère de l’Intérieur à l’exécution des lois : on précisait explicitement qu’il n’avait aucun pouvoir de contrôle sur la souveraineté populaire exercée localement ; au contraire, il rendrait compte aux représentants de la nation[1] ». Quant à la question de l’interprétation des lois qui pouvait offrir quelque latitude à un ministre entreprenant, elle ne fut qu’appliquée a minima. La plupart des ministres firent preuve à cette époque d’une sujétion parfaite à l’assemblée, sollicitant son avis pour la moindre interprétation de la loi. Seul Jean-Marie Roland rendit quelque éclat à la fonction ministérielle en réglant de nombreux problèmes de compétence à l’égard de ses collègues et en réorganisant les bureaux de son département et en précisant son fonctionnement[2]. [1] Catherine Kawa. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996. p. 70. [2] Jacques Godechot, Les institutions de la France sous la Révolution et l’Empire, Paris : Presses universitaires de France. 4e éd. 1989 [1ère éd. 1951]. p. 84.</p>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="http://emchateau/france-interieur-(ministere)-1e-division" xlink:type="simple">
+                <relationEntry>France. Intérieur (Ministère). 1è division</relationEntry>
+                <dateRange>
+                    <fromDate standardDate="1791">1791</fromDate>
+                    <toDate standardDate="1793">1793</toDate>
+                </dateRange>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>

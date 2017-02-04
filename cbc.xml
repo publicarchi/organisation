@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <control>
+        <recordId>emchateau0004</recordId>
+        <!--<otherRecordId></otherRecordId>-->
+        <maintenanceStatus>new</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>emchateau</agencyName>
+        </maintenanceAgency>
+        
+        <languageDeclaration>
+            <language languageCode="fre"></language>
+            <script scriptCode="Latn"></script>
+        </languageDeclaration>
+        <conventionDeclaration><!-- TODO -->
+            <abbreviation>AFNOR440061</abbreviation>
+            <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                Nom conforme à la norme AFNOR etc.
+            </citation>
+        </conventionDeclaration>
+        
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime>2016-01-25</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Emmanuel Chateau</agent>
+                <eventDescription>Notice XML créée dans le cadre d'un prototype des Archives Nationales</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        
+        <sources>
+            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
+                <sourceEntry>CHATEAU, Emmanuel. Théorie et pratique de l’architetcure publique en France. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France (1795-1848) Thèse de doctorat de l’École pratique des hautes études sous la direction de Jean-Michel Leniaud, 2016.</sourceEntry>
+                <!-- TODO lister les sources -->
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType>corporateBody</entityType>
+            <nameEntry>
+                <part>France. Conseil des bâtiments civils (1795-1968)</part>
+                <authorizedForm>conventionDeclaration</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1795">1795</fromDate>
+                    <toDate standardDate="1968">1968</toDate>
+                </dateRange>
+            </existDates>
+            <place>
+                <placeEntry>Placé successivement auprès du ministère de l’intérieur, ou des travaux publics, le Conseil des bâtiments civils rendait des avis sur toutes les affaires d’architectures que lui soumettaient le ministre.</placeEntry>
+            </place>
+            <legalStatus>
+                <term>Administration consultative</term>
+            </legalStatus>
+            <function>
+                <term>conseil</term><!-- tutelle ?-->
+                <descriptiveNote>
+                    <p>Le Conseil des bâtiments civils rendait des avis sur les affaires qui lui étaient soumises par le ministre de l’intérieur.</p>
+                </descriptiveNote>
+            </function>
+            <occupation>
+                <term>Conseil</term>
+                <descriptiveNote>
+                    <p>Note sur les fonctions</p>
+                </descriptiveNote>
+            </occupation>
+            <mandate>
+                <term>Mandats</term>
+            </mandate>
+            <structureOrGenealogy>
+                <p>1. Composition. 6 divisions</p><!-- TODO détailler -->
+                <p>2. Fonctionnement.</p>
+            </structureOrGenealogy>
+            <biogHist>
+                <p></p>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="http://emchateau/france-interieur-(ministere)-1e-division" xlink:type="simple">
+                <relationEntry>France. Intérieur (Ministère). 1è division</relationEntry>
+                <dateRange>
+                    <fromDate standardDate="1791">1791</fromDate>
+                    <toDate standardDate="1793">1793</toDate>
+                </dateRange>
+            </cpfRelation>
+        </relations>
+    </cpfDescription>
+</eac-cpf>
