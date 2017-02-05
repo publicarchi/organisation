@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eac-cpf xmlns="urn:isbn:1-931666-33-4"
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd" 
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd">
     <control>
         <recordId>emchateau0003</recordId>
         <!--<otherRecordId></otherRecordId>-->
@@ -16,17 +15,19 @@
             <language languageCode="fre"></language>
             <script scriptCode="Latn"></script>
         </languageDeclaration>
-        <conventionDeclaration><!-- TODO -->
-            <abbreviation>AFNOR440061</abbreviation>
-            <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
-                Nom conforme à la norme AFNOR etc.
-            </citation>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_Z44-061</abbreviation>
+            <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
         </conventionDeclaration>
+        
+        <localControl localType="detailLevel">
+            <term>detailed</term>
+        </localControl>
         
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>created</eventType>
-                <eventDateTime>2015-06-17</eventDateTime>
+                <eventDateTime standardDateTime="2015-06-17">17 juin 2015</eventDateTime>
                 <agentType>human</agentType>
                 <agent>Emmanuel Chateau</agent>
                 <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
@@ -45,10 +46,11 @@
                 <sourceEntry>KAWA Catherine. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996. p. 70.</sourceEntry>
             </source>
             <source>
-                <sourceEntry>CHATEAU Emmanuel. L’administration de l’architecture publique en France au XIXe siècle. Thèse de l’EPHE, 2015.</sourceEntry>
+                <sourceEntry>CHATEAU Emmanuel. L’administration de l’architecture publique en France au XIXe siècle. Thèse de l’EPHE sous la direction de Jean-Michel Leniaud, 2016.</sourceEntry>
             </source>
         </sources>
     </control>
+    
     <cpfDescription>
         <identity>
             <entityType>corporateBody</entityType>
@@ -60,6 +62,7 @@
         <description>
             <existDates>
                 <dateRange>
+                    
                     <fromDate standardDate="1795-11-03">12 brumaire an IV (3 novembre 1795)</fromDate>
                     <!--<toDate standardDate="1793">1793</toDate>-->
                 </dateRange>

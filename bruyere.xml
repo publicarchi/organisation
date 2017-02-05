@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd">
+   <control>
+      <recordId>emchateau0006</recordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <publicationStatus>inProcess</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>emchateau</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="fre"/>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_Z44-061</abbreviation>
+         <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
+      </conventionDeclaration>
+      <localControl localType="detailLevel">
+         <term>detailed</term>
+      </localControl>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-02">2 février 2017</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="2016-10-11">11 octobre 2016</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+            <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry></sourceEntry>
+         </source>
+      </sources>
+   </control>
+   
+   <cpfDescription>
+      <identity>
+         <entityId>ISNI 0000 0001 2131 4074</entityId>
+         <entityType>person</entityType>
+         <nameEntry localType="preferredFormForProject">
+            <part>Bruyère, Louis (1758-1831)</part>
+            <authorizedForm>AFNOR_Z44-061</authorizedForm>
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1758-05-19">19 mai 1785</fromDate>
+               <toDate standardDate="1831-12-31">31 décembre 1831</toDate>
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>Issu d’une famille bourgeoise de Lyon, Louis Bruyère reçut une formation d’architecte avant de d’intégrer l’École royale des ponts et chaussées de Paris en 1783. Nommé ingénieur ordinaire à Tours en 1786, il fut ensuite affecté au Mans en 1789. Dès 1799, il enseigna à l’École des ponts et chaussées comme professeur de stéréotomie et de l’art des constructions. À la même époque, il fut chargé de la fonction de secrétaire du Conseil général des ponts et chaussées.</p>
+            <p>Lorsque le ministre Jean-Pierre de Montalivet devint ministre de l’Intérieur, après avoir quitté la direction générale des Ponts et chaussées, il voulut encadrer de manière puissante les travaux alors entrepris à Paris. Il provoqua la création de deux directions générale, l’une pour les travaux publics, l’autre pour les travaux de Paris. Louis Bruyère fut nommé, sur sa proposition, directeur général des Travaux de Paris, et maître des requêtes au Conseil d’État pour l’occasion, par décret impérial du 13 janvier 1811. Dès lors, il dirigea directement les nombreux travaux alors en cours à Paris. L’administration de Bruyère est associée à de nombreuses réalisations de grande ampleur à Paris sous l’Empire comme la construction des marchés ou des fontaines publics. Sa direction fut active et zélée au point d’avoir été parfois accusé d’autoritarisme.</p>
+            <p>Fortement mis en cause pendant la première Restauration, puis les Cent jours, puis encore en 1817, Bruyère parvint à se maintenir à la tête de la Direction des travaux de Paris. À la fin de 1819, des attaques de la goutte dont il souffrait qui devenaient beaucoup plus fréquentes, le contrinrent à renoncer ses fonctions. Il ne fut remplacé que le 10 mars 1820 par Hély d’Oissel. Bruyère fut alors nommé inspecteur général des Ponts et chaussées, des fonctions qu’il conserva jusqu’en 1830, manifestement sans jamais pouvoir y siéger. En 1820, le Conseil municipal de la Ville de Paris lui accorda une pension viagère de cinq mille francs en reconnaissance de ses nombreux services. Il entreprit à la fin de sa vie la publication d’un recueil paru, en deux tomes à partir de 1820, sous le titre d’<span style="italic">Études relatives à l’art des constructions</span> qui rend compte de ses travaux.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation cpfRelationType="identity"
+            xlink:href="http://data.bnf.fr/ark:/12148/cb103021113" xlink:type="simple">
+            <relationEntry>Louis Bruyère (1758-1831)</relationEntry>
+            <descriptiveNote>
+               <p>Notice data.bnf.fr [http://data.bnf.fr/ark:/12148/cb103021113,consultée le 11 octobre 2016]</p>
+            </descriptiveNote>
+         </cpfRelation>        
+         <cpfRelation cpfRelationType="associative" xlink:href="emchateau0005" xlink:type="simple">
+            <relationEntry>Direction des travaux de Paris (Paris)</relationEntry>
+            <dateRange>
+               <fromDate standardDate="1811-01-13">13 janvier 1811</fromDate>
+               <toDate standardDate="1819">1819</toDate>
+            </dateRange>
+            <descriptiveNote>
+               <p>@isDirectorOf@</p>
+               <p>Nommé par le décret impérial du 13 janvier 1811, Louis Bruyère fut confirmé à la direction des travaux de Paris sous la première, pendant les Cent jours, et la Restauration. Il offrit sa démission à la fin de 1819, mais ne fut remplacé qu’en mars 1820.</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <cpfRelation cpfRelationType="temporal-later" xlink:href="emchateau0007" xlink:type="simple">
+            <relationEntry>Hély d’Oissel, @todo</relationEntry>
+            <date standardDate="1820-03-10">10 mars 1820</date>
+            <descriptiveNote>
+               <p>Hély d’Oissel fut nommé par une ordonnance du 10 mars 1820 à peu près aux mêmes fonctions, il resta quelques années à la tête de la direction des travaux de Paris.</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <resourceRelation resourceRelationType="creatorOf" xlink:href="@todo"
+            xlink:type="simple">
+            <relationEntry localType="archival">@todo</relationEntry>
+         </resourceRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

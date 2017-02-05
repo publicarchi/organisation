@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eac-cpf xmlns="urn:isbn:1-931666-33-4"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd" 
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd">
     <control>
         <recordId>emchateau0001</recordId>
         <!--<otherRecordId></otherRecordId>-->
@@ -16,20 +15,22 @@
             <language languageCode="fre"></language>
             <script scriptCode="Latn"></script>
         </languageDeclaration>
-        <conventionDeclaration><!-- TODO -->
-            <abbreviation>AFNOR440061</abbreviation>
-            <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
-                Nom conforme à la norme AFNOR etc.
-            </citation>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_Z44-061</abbreviation>
+            <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
         </conventionDeclaration>
+        
+        <localControl localType="detailLevel">
+            <term>detailed</term>
+        </localControl>
         
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>created</eventType>
-                <eventDateTime>2015-01-25</eventDateTime>
+                <eventDateTime standardDateTime="2015-01-25">25 janvier 2015</eventDateTime>
                 <agentType>human</agentType>
                 <agent>Emmanuel Chateau</agent>
-                <eventDescription>Notice XML créée dans le cadre d'un prototype des Archives Nationales</eventDescription>
+                <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
             </maintenanceEvent>
         </maintenanceHistory>
         
@@ -52,6 +53,7 @@
             </source>
         </sources>
     </control>
+    
     <cpfDescription>
         <identity>
             <entityType>corporateBody</entityType>
@@ -68,7 +70,7 @@
                 </dateRange>
             </existDates>
             <place>
-                <placeEntry>Chargé des affaires intérieures de la France, le Ministère de l'intérieur avait la surveillance de tous les actes des départements.</placeEntry>
+                <placeEntry>Chargé des affaires intérieures de la France, le Ministère de l’intérieur avait la surveillance de tous les actes des départements.</placeEntry>
             </place>
             <legalStatus>
                 <term>Ministère</term>
@@ -76,13 +78,13 @@
             <function>
                 <term>surveillance</term><!-- tutelle ?-->
                 <descriptiveNote>
-                    <p>Le Ministère de l'intérieur avait la surveillance de tous les actes administratifs des autorités locales.</p>
+                    <p>Le Ministère de l’intérieur avait la surveillance de tous les actes administratifs des autorités locales.</p>
                 </descriptiveNote>
             </function>
             <occupation>
                 <term>Ministère</term>
                 <descriptiveNote>
-                    <p>D'après les articles 7 et 8 du décret du 27 avril 1791, il est chargé de :</p>
+                    <p>D’après les articles 7 et 8 du décret du 27 avril 1791, il est chargé de :</p>
                     <p>1° De faire parvenir toutes les lois aux corps administratifs ;</p>
                     <p>2° De maintenir le régime constitutionnel, et les lois touchant les assemblées de communes par communautés entières ou par sections, les assemblées primaires et les assemblées électorales, les corps administratifs, les municipalités, la constitution civile du clergé, et provisoirement l’instruction et l’éducation publiques ; sans que de la présente disposition on puisse jamais induire que les questions sur la régularité des assemblée et la validité des élections, ou sur l’activité et l’éligibilité des citoyens, puissent être soumises au jugement du pouvoir exécutif.</p>
                     <p>3° Il aura la surveillance et l’exécution des lois relatives à la sûreté et à la tranquillité de l’intérieur de l’État ;</p>
