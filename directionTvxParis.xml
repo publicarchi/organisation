@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd">
+    <control>
+        <recordId>admi0001</recordId>
+        <!--<otherRecordId></otherRecordId>-->
+        <maintenanceStatus>new</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>emchateau</agencyName>
+        </maintenanceAgency>
+        
+        <languageDeclaration>
+            <language languageCode="fre"></language>
+            <script scriptCode="Latn"></script>
+        </languageDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_Z44-061</abbreviation>
+            <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
+        </conventionDeclaration>
+        
+        <localControl localType="detailLevel">
+            <term>detailed</term>
+        </localControl>
+        
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>created</eventType>
+                <eventDateTime standardDateTime="2016-03-17">17 mars 2016</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Emmanuel Chateau</agent>
+                <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        
+        <sources>
+            <source>
+                <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
+            </source>
+        </sources>
+    </control>
+    <cpfDescription>
+        <identity>
+            <entityType>corporateBody</entityType>
+            <nameEntry>
+                <part>France. Conseil des bâtiments civils (1795-1968)</part>
+                <authorizedForm>AFNOR_Z44-061</authorizedForm>
+            </nameEntry>
+        </identity>
+        <description>
+            <existDates>
+                <dateRange>
+                    <fromDate standardDate="1811">1811</fromDate>
+                    <toDate standardDate="1830">1830</toDate>
+                </dateRange>
+            </existDates>
+            <place>
+                <placeEntry>Établie auprès du ministère de l’Intérieur à partir de 1811, la Direction des travaux de Paris fut créée par Montalivet pour donner plus d’activité aux travaux.</placeEntry>
+            </place>
+            <legalStatus>
+                <term>direction générale</term>
+            </legalStatus>
+            <function>
+                <term>direction administrative</term><!-- tutelle ?-->
+                <descriptiveNote>
+                    <p>Chargée de l’administration directe de tous les travaux publics qui s’exécutaient dans la ville de Paris, la direction fonctionnait sous la tutuelle du ministre de l’Intérieur.</p>
+                </descriptiveNote>
+            </function>
+            <occupation>
+                <term>Direction</term>
+                <descriptiveNote>
+                    <p>Note sur les fonctions @todo</p>
+                </descriptiveNote>
+            </occupation>
+            <mandate>
+                <term>@todo</term>
+            </mandate>
+            <structureOrGenealogy>
+                <p>1. Composition. 6 divisions</p><!-- TODO détailler -->
+                <p>2. Fonctionnement.</p>
+            </structureOrGenealogy>
+            <biogHist>
+                <p>L’ordonnance du 26 février 1817 rendit seulement facultative l’intervention du directeur des Travaux de Paris, et dès lors l’intervention du directeur fut le plus souvent éludée. Par exemple, la direction générale des Contributions indirectes avait fait exécuter de grandes constructions à la manufacture des tabacs, le garde des sceaux fit faire des travaux dans son ministère, et même le ministère de l’Intérieur fit construire un grand bâtiment dans les dépendances de l’hôtel de l’Intérieur sans que le directeur n’eût été mis à portée d’exercer sa surveillance. Plusieurs monuments furent aussi réunis à une petite administration créée pour Charles Jean Lafolie (1780-1824) sous le titre de Conservation des monuments. Mais ces démembrements furent de courte durée, car on rendit par la suite à la direction d’Hély d’Oissel qui succéda à Bruyère une partie des attributions qui lui avaient été enlevées. Le reste lui fut réuni lors de l’entrée en fonction d’Héricart de Thury.</p>
+            </biogHist>
+        </description>
+        <relations>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="@todo" xlink:type="simple">
+                <relationEntry>France. Intérieur (Ministère), 1806-1814.</relationEntry>
+                <dateRange>
+                    <fromDate standardDate="1811">1811</fromDate>
+                    <toDate standardDate="1814">1814</toDate>
+                </dateRange>
+            </cpfRelation>
+            <!-- @todo -->
+        </relations>
+    </cpfDescription>
+</eac-cpf>

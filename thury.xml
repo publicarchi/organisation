@@ -3,7 +3,7 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd">
    <control>
-      <recordId>person0001</recordId>
+      <recordId>person0003</recordId>
       <maintenanceStatus>new</maintenanceStatus>
       <publicationStatus>inProcess</publicationStatus>
       <maintenanceAgency>
@@ -37,55 +37,47 @@
       </maintenanceHistory>
       <sources>
          <source>
-            <sourceEntry>Clémence Dufour-Montalescot. Louis Bruyère et la Direction des travaux de Paris. Thèse pour le diplôme d’archiviste paléographe de l’École Nationale des Chartes sous la direction de Jean-Michel LENIAUD, 1998.</sourceEntry>
-         </source>
-         <source>
             <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
          </source>
          <source>
-            <sourceEntry>Louis Bruyère. Études relatives à l’art des constructions. Paris : Bance aîné, 1823-1828.</sourceEntry>
-         </source>
-         <source>
-            <sourceEntry>Henri Navier. Notice sur M. Bruyère [Extrait des Annales des Ponts et Chaussées]. Paris : Carilian Gœury, 1833.</sourceEntry>
+            <sourceEntry>http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/11527</sourceEntry>
          </source>
       </sources>
    </control>
    
    <cpfDescription>
       <identity>
-         <entityId>ISNI 0000 0001 2131 4074</entityId>
+         <entityId>ISNI 0000 0001 2099 942X</entityId>
          <entityType>person</entityType>
          <nameEntry localType="preferredFormForProject">
-            <part>Bruyère, Louis (1758-1831)</part>
+            <part>Héricart-Ferrand de Thury, Louis Étienne François (1776-1854)</part>
             <authorizedForm>AFNOR_Z44-061</authorizedForm>
          </nameEntry>
       </identity>
       <description>
          <existDates>
             <dateRange>
-               <fromDate standardDate="1758-05-19">19 mai 1785</fromDate>
-               <toDate standardDate="1831-12-31">31 décembre 1831</toDate>
+               <fromDate standardDate="1776-06-03">3 juin 1776</fromDate><!-- Paris -->
+               <toDate standardDate="1854-01-15">15 janvier 1854</toDate><!-- Rome (Italie) -->
             </dateRange>
          </existDates>
          <biogHist>
-            <p>Issu d’une famille bourgeoise de Lyon, Louis Bruyère reçut une formation d’architecte avant de d’intégrer l’École royale des ponts et chaussées de Paris en 1783. Nommé ingénieur ordinaire à Tours en 1786, il fut ensuite affecté au Mans en 1789. Dès 1799, il enseigna à l’École des ponts et chaussées comme professeur de stéréotomie et de l’art des constructions. À la même époque, il fut chargé de la fonction de secrétaire du Conseil général des ponts et chaussées.</p>
-            <p>Lorsque le ministre Jean-Pierre de Montalivet devint ministre de l’Intérieur, après avoir quitté la direction générale des Ponts et chaussées, il voulut encadrer de manière puissante les travaux alors entrepris à Paris. Il provoqua la création de deux directions générale, l’une pour les travaux publics, l’autre pour les travaux de Paris. Louis Bruyère fut nommé, sur sa proposition, directeur général des Travaux de Paris, et maître des requêtes au Conseil d’État pour l’occasion, par décret impérial du 13 janvier 1811. Dès lors, il dirigea directement les nombreux travaux alors en cours à Paris. L’administration de Bruyère est associée à de nombreuses réalisations de grande ampleur à Paris sous l’Empire comme la construction des marchés ou des fontaines publics. Sa direction fut active et zélée au point d’avoir été parfois accusé d’autoritarisme.</p>
-            <p>Fortement mis en cause pendant la première Restauration, puis les Cent jours, puis encore en 1817, Bruyère parvint à se maintenir à la tête de la Direction des travaux de Paris. À la fin de 1819, sans doute de guerre lasse, Bruyère qui était sujet à de graves attaques de goutte, fut forcé de renoncer aux fonctions de directeur général des travaux publics de Paris. Le ministre de l’Intérieur refusa pendant plusieurs mois, d’accepter sa démission, et ce ne fut que le 10 mars 1820 qu’une ordonnance du roi nomma à sa place. Louis Bruyère fut alors appelé à siéger au Conseil général des ponts et chaussées en tant qu’Inspecteur général, fonctions qu’il conservait jusqu’en 1830. Mais sa santé ne lui permit pas d’assister aux séances de cette assemblée ; mis en retraite le 19 octobre 1830, il mourut le 31 décembre 1831. En quittant le service des travaux de Paris, Bruyère avait reçu du conseil municipal, une pension viagère, en récompense de ses services. Il publia dans ses <span style="italic">Études sur l’art des constructions</span>, en deux volumes <span style="italic">in-folio</span> parus de 1823 à 1828, douze mémoires relatifs aux travaux hydrauliques et aux constructions civiles qui témoignaient notamment de son administration.</p>
+            <p></p>
          </biogHist>
       </description>
       <relations>
          <cpfRelation cpfRelationType="identity"
-            xlink:href="http://data.bnf.fr/ark:/12148/cb103021113" xlink:type="simple">
-            <relationEntry>Louis Bruyère (1758-1831)</relationEntry>
+            xlink:href="http://data.bnf.fr/ark:/12148/cb12376924b" xlink:type="simple">
+            <relationEntry>Louis-Étienne-François Héricart-Ferrand de Thury (1776-1854)</relationEntry>
             <descriptiveNote>
-               <p>Notice data.bnf.fr [http://data.bnf.fr/ark:/12148/cb103021113,consultée le 11 octobre 2016]</p>
+               <p>Notice data.bnf.fr [http://data.bnf.fr/ark:/12148/cb12376924b,consultée le 11 octobre 2016]</p>
             </descriptiveNote>
          </cpfRelation>        
          <cpfRelation cpfRelationType="associative" xlink:href="travauxDeParis1811" xlink:type="simple">
             <relationEntry>Direction des travaux de Paris (Paris)</relationEntry>
             <dateRange>
-               <fromDate standardDate="1811-01-13">13 janvier 1811</fromDate>
-               <toDate standardDate="1819">1819</toDate>
+               <fromDate standardDate=""></fromDate>
+               <toDate standardDate=""></toDate>
             </dateRange>
             <descriptiveNote>
                <p>@isDirectorOf@</p>

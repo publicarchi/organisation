@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="urn:isbn:1-931666-33-4 file:schemas/cpf.xsd">
     <control>
-        <recordId>emchateau0003</recordId>
+        <recordId>ministere0003</recordId>
         <!--<otherRecordId></otherRecordId>-->
         <maintenanceStatus>new</maintenanceStatus>
         <publicationStatus>inProcess</publicationStatus>
@@ -35,18 +35,17 @@
         </maintenanceHistory>
         
         <sources>
-            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
-                <sourceEntry>BERTHOLLE, Pierre. "La création du Ministère à l’époque de la Révolution (1789-1799)." In Histoire du Ministère de l’Intérieur de 1790 à nos jours, par un groupe de préfets et de hauts fonctionnaires du ministère. Paul Bouteiller (dir). Paris : La Documentation française, 1993.</sourceEntry>
-                <!-- TODO lister les sources -->
+            <source>
+                <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
             </source>
             <source>
-                <sourceEntry>GODECHOT Jacques. Les institutions de la France sous la Révolution et l’Empire. Paris : Presses universitaires de France. 4e éd. 1989 [1ère éd. 1951]. p. 84.</sourceEntry>
+                <sourceEntry>Pierre Bertholle. « La création du Ministère à l’époque de la Révolution (1789-1799). » In Histoire du Ministère de l’Intérieur de 1790 à nos jours, par un groupe de préfets et de hauts fonctionnaires du ministère. Paul Bouteiller (dir). Paris : La Documentation française, 1993.</sourceEntry>
             </source>
             <source>
-                <sourceEntry>KAWA Catherine. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996. p. 70.</sourceEntry>
+                <sourceEntry>Jacques Godechot. Les institutions de la France sous la Révolution et l’Empire. Paris : Presses universitaires de France. 4e édition. 1989 [1ère éd. 1951], p. 84.</sourceEntry>
             </source>
             <source>
-                <sourceEntry>CHATEAU Emmanuel. L’administration de l’architecture publique en France au XIXe siècle. Thèse de l’EPHE sous la direction de Jean-Michel Leniaud, 2016.</sourceEntry>
+                <sourceEntry>Catherine Kawa. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996, p. 70.</sourceEntry>
             </source>
         </sources>
     </control>
@@ -56,7 +55,7 @@
             <entityType>corporateBody</entityType>
             <nameEntry>
                 <part>France. Ministère de l’Intérieur (1795-)</part>
-                <authorizedForm>conventionDeclaration</authorizedForm>
+                <authorizedForm>AFNOR_Z44-061</authorizedForm>
             </nameEntry>
         </identity>
         <description>

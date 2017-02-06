@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd">
+   <control>
+      <recordId>person0002</recordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <publicationStatus>inProcess</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>emchateau</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="fre"/>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_Z44-061</abbreviation>
+         <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
+      </conventionDeclaration>
+      <localControl localType="detailLevel">
+         <term>detailed</term>
+      </localControl>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-02">2 février 2017</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="2016-10-11">11 octobre 2016</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+            <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <sources>
+         <source>
+            <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/12010</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   
+   <cpfDescription>
+      <identity>
+         <entityId>ISNI 0000 0000 5029 2217</entityId>
+         <entityType>person</entityType>
+         <nameEntry localType="preferredFormForProject">
+            <part>Hély d’Oissel, Abdon Patrocle Frédéric (1777-1833)</part>
+            <authorizedForm>AFNOR_Z44-061</authorizedForm>
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1777-04-02">2 avril 1777</fromDate><!-- Rouen (Seine-et-Marne) -->
+               <toDate standardDate="1833-01-29">29 janvier 1833</toDate><!-- Paris -->
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p></p>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation cpfRelationType="associative" xlink:href="travauxDeParis1811" xlink:type="simple">
+            <relationEntry>Direction des travaux de Paris (Paris)</relationEntry>
+            <dateRange>
+               <fromDate standardDate="1820-03-10">10 mars 1820</fromDate>
+               <toDate standardDate="1824">@todo</toDate>
+            </dateRange>
+            <descriptiveNote>
+               <p>@isDirectorOf@</p>
+               <p>Nommé par le décret impérial du 13 janvier 1811, Louis Bruyère fut confirmé à la direction des travaux de Paris sous la première, pendant les Cent jours, et la Restauration. Il offrit sa démission à la fin de 1819, mais ne fut remplacé qu’en mars 1820.</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <cpfRelation cpfRelationType="temporal-earlier" xlink:href="person0001" xlink:type="simple">
+            <relationEntry>Bruyère, Louis (1758-1831)</relationEntry>
+            <date standardDate="1820-03-10">10 mars 1820</date><!-- @todo vérifier -->
+            <descriptiveNote>
+               <p>Hély d’Oissel fut nommé par une ordonnance du 10 mars 1820 à peu près aux mêmes fonctions que Bruyère, il resta quelques années à la tête de la direction des travaux de Paris.</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <cpfRelation cpfRelationType="temporal-later" xlink:href="person0003" xlink:type="simple">
+            <relationEntry></relationEntry>
+            <date standardDate="1824">@todo</date>
+            <descriptiveNote>
+               <p>@todo</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <resourceRelation resourceRelationType="creatorOf" xlink:href="@todo"
+            xlink:type="simple">
+            <relationEntry localType="archival">@todo</relationEntry>
+         </resourceRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>
