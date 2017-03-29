@@ -10,20 +10,36 @@
         <maintenanceAgency>
             <agencyName>emchateau</agencyName>
         </maintenanceAgency>
-        
-        <localControl localType="detailLevel">
-            <term>detailed</term>
-        </localControl>
-        
         <languageDeclaration>
             <language languageCode="fre"></language>
             <script scriptCode="Latn"></script>
         </languageDeclaration>
         <conventionDeclaration>
+            <abbreviation>ISAAR(CPF)</abbreviation>
+            <citation  xlink:href="http://www.ica.org" xlink:type="simple">Norme internationale pour les notices d’autorité archivistiques (Collectivités, personnes, familles) du Conseil international des archives, 2ème édition, 1996.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_NF_Z44-060</abbreviation>
+            <citation>Norme NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+                structure des vedettes des collectivités auteur. Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange d’information -- Représentation de la date et de
+                l’heure.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
             <abbreviation>AFNOR_Z44-061</abbreviation>
             <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
         </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>ISO8601</abbreviation>
+            <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
+            <citation>Norme NF Z 44-081, septembre 1993, Documentation – catalogage des documents cartographiques – Formes et structure des vedettes noms géographiques.</citation>
+        </conventionDeclaration>
         
+        <localControl localType="detailLevel">
+            <term>detailed</term>
+        </localControl>
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>created</eventType>
@@ -37,6 +53,26 @@
         <sources>
             <source>
                 <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Lauren Marie O’Connell. Architecture and the French Revolution : Change and Continuity Under the Conseil des bâtiments civils, 1795-1799. PHD, Cornell University, 1989.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Robin Middelton et Marie-Noelle Baudouin-Matuszek. Jean Rondelet, The Architect As Technician. New Haven : Yale University Press, 2007.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Catherine Kawa. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Jacques Godechot, Les institutions de la France sous la Révolution et l’Empire, Paris : Presses universitaires de France. 4e édition. 1989 [1ère éd. 1951].</sourceEntry></source>
+            <source>
+                <sourceEntry>Marcel Reinhard, Georges Lefebvre, Marc Bouloiseau (dir.). Archives Parlementaires de 1787 à 1860, Recueil complet des débats législatifs et politiques des chambres françaises fondé par MM. Mavidal et E. Laurent, Continué par l’Institut d’Histoire de la Révolution Française de la Faculté des Lettres et Sciences humaines de Paris. Paris : CNRS, 1965. Première série (1787-1799), Tome LXXXVI, séance du 21 ventôse an II (11 mars 1794), p. 336-341.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Rapport sur la suppression du Conseil exécutif provisoire, et sur son remplacement par des commissions particulières, fait par Carnot au nom du Comité de salut public, du 12 germinal an II de la République [1er avril 1793].</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Décret relatif à la suppression et au remplacement du Conseil exécutif provisoire, Convention nationale, séance du 12 germinal an II-1er avril 1794, dans Actes du Comité de salut public,..., p. 326- 330.</sourceEntry>
             </source>
         </sources>
     </control>
@@ -77,21 +113,27 @@
                 <term>La loi du 12 germinal an II (1er avril 1794) qui supprimait le Conseil exécutif provisoire le remplaça par douze Commissions exécutives. Six de ces commissions, dont la Commission des travaux publics, étaient chargées des attributions précédemment dévolues au ministre de l’Intérieur. Elles fonctionnèrent jusqu’au 12 brumaire an IV (3 novembre 1795).</term>
             </mandate>
             <structureOrGenealogy>
-                <p>1. Composition. 6 divisions</p><!-- TODO détailler -->
+                <p>1. Composition.</p><!-- TODO détailler -->
                 <p>2. Fonctionnement.</p>
             </structureOrGenealogy>
             <biogHist>
-                <p>Cependant, il faut noter « la volonté des Constituants de borner strictement le rôle du ministère de l’Intérieur à l’exécution des lois : on précisait explicitement qu’il n’avait aucun pouvoir de contrôle sur la souveraineté populaire exercée localement ; au contraire, il rendrait compte aux représentants de la nation[1] ». Quant à la question de l’interprétation des lois qui pouvait offrir quelque latitude à un ministre entreprenant, elle ne fut qu’appliquée a minima. La plupart des ministres firent preuve à cette époque d’une sujétion parfaite à l’assemblée, sollicitant son avis pour la moindre interprétation de la loi. Seul Jean-Marie Roland rendit quelque éclat à la fonction ministérielle en réglant de nombreux problèmes de compétence à l’égard de ses collègues et en réorganisant les bureaux de son département et en précisant son fonctionnement[2].</p>
-                <p>[1] Catherine Kawa. Les Ronds-de-cuir en Révolution, Les employés du ministère de l’Intérieur sous la Première République (1792-1800). Paris : CTHS, 1996. p. 70.</p>
-                <p>[2] Jacques Godechot, Les institutions de la France sous la Révolution et l’Empire, Paris : Presses universitaires de France. 4e éd. 1989 [1ère éd. 1951]. p. 84.</p>
+                <p>Le discours de Barère du 21 ventôse an II (11 mars 1794) provoqua la formation d’une Commission des travaux publics qui constitua par la suite l’une des douze commissions exécutives appelées à remplacer les ministères créés par la loi du 27 avril 1791. La Convention s’efforça de réduire le rôle de l’exécutif en le plaçant de plus en plus sous le contrôle parlementaire des comités. Dès lors, les ministères n’étaient plus considérés que comme des intermédiaires gênants et cette évolution débouchait sur une confusion totale entre les pouvoirs exécutifs et législatifs. Dans le gouvernement révolutionnaire, elle allait aboutir à la disparition pure et simple des ministères qui fut décidée le 12 germinal an II (1er avril 1794) sur un rapport de Carnot. Ces commissions fonctionnèrent à partir du 30 du même mois.</p>
+                <p>Toutes les affaires relatives aux travaux, précédemment confiées à plusieurs ministères (ministère de l’Intérieur, de la Marine, et ministère de la Guerre), devaient échoir à une Commission des travaux publics. La nouvelle commission devait « se rattacher d’une manière plus centrale, plus active, plus responsable au gouvernement révolutionnaire ». Sa création répondait à une triple logique, caractéristique du gouvernement révolutionnaire : une centralisation des affaires sous la surveillance directe du pouvoir législatif, la volonté d’accélérer les affaires, le renforcement de la responsabilité des administrateurs.</p>
+                <p>Cette nouvelle administration qui était comme les autres commissions exécutives placée sous la surveillance directe du Comité de salut public, devait donc réunir les principaux corps concourant à la réalisation des travaux en vue d’imprimer une uniformité dans leur gestion et de les régénérer. De cette uniformité on espérait une « accélération des travaux publics », mais aussi une meilleure efficacité et une plus grande économie. Pour la régénération, elle serait également chargée « de l’établissement d’une école centrale de travaux publics, et du mode d’examen et de concours auxquels seront assujettis ceux qui voudront être employés à la direction de ces travaux. »</p>
             </biogHist>
         </description>
         <relations>
-            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="http://emchateau/france-interieur-(ministere)-1e-division" xlink:type="simple">
-                <relationEntry>France. Intérieur (Ministère). 1è division</relationEntry>
+            <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="@todo" xlink:type="simple">
+                <relationEntry>France. Comité de salut public (1793-1794)</relationEntry>
                 <dateRange>
-                    <fromDate standardDate="1791">1791</fromDate>
-                    <toDate standardDate="1793">1793</toDate>
+                    <fromDate standardDate="1794-04-01">12 germinal an II (1er avril 1794)</fromDate>
+                    <toDate standardDate="1795-11-03">12 brumaire an IV (3 novembre 1795)</toDate>
+                </dateRange>
+            </cpfRelation>
+            <cpfRelation cpfRelationType="temporal-later" xlink:href="ministere0003" xlink:type="simple">
+                <relationEntry>France. Ministère de l’Intérieur (1795-)</relationEntry>
+                <dateRange>
+                    <fromDate standardDate="1795-11-03">12 brumaire an IV (3 novembre 1795)</fromDate>
                 </dateRange>
             </cpfRelation>
         </relations>

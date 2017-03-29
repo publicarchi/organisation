@@ -14,9 +14,28 @@
          <script scriptCode="Latn"/>
       </languageDeclaration>
       <conventionDeclaration>
+         <abbreviation>ISAAR(CPF)</abbreviation>
+         <citation  xlink:href="http://www.ica.org" xlink:type="simple">Norme internationale pour les notices d’autorité archivistiques (Collectivités, personnes, familles) du Conseil international des archives, 2ème édition, 1996.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z44-060</abbreviation>
+         <citation>Norme NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+            structure des vedettes des collectivités auteur. Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange d’information -- Représentation de la date et de
+            l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
          <abbreviation>AFNOR_Z44-061</abbreviation>
          <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
       </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>ISO8601</abbreviation>
+         <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
+         <citation>Norme NF Z 44-081, septembre 1993, Documentation – catalogage des documents cartographiques – Formes et structure des vedettes noms géographiques.</citation>
+      </conventionDeclaration>
+      
       <localControl localType="detailLevel">
          <term>detailed</term>
       </localControl>
@@ -35,6 +54,7 @@
             <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
          </maintenanceEvent>
       </maintenanceHistory>
+      
       <sources>
          <source>
             <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
@@ -47,7 +67,7 @@
    
    <cpfDescription>
       <identity>
-         <entityId>ISNI 0000 0001 2099 942X</entityId>
+         <entityId>thury</entityId>
          <entityType>person</entityType>
          <nameEntry localType="preferredFormForProject">
             <part>Héricart-Ferrand de Thury, Louis Étienne François (1776-1854)</part>
@@ -70,18 +90,32 @@
             xlink:href="http://data.bnf.fr/ark:/12148/cb12376924b" xlink:type="simple">
             <relationEntry>Louis-Étienne-François Héricart-Ferrand de Thury (1776-1854)</relationEntry>
             <descriptiveNote>
-               <p>Notice data.bnf.fr [http://data.bnf.fr/ark:/12148/cb12376924b,consultée le 11 octobre 2016]</p>
+               <p>Notice data.bnf.fr</p>
             </descriptiveNote>
-         </cpfRelation>        
+         </cpfRelation>
+         <cpfRelation cpfRelationType="identity"
+            xlink:href="http://www2.assemblee-nationale.fr/sycomore/fiche/(num_dept)/11527" xlink:type="simple">
+            <relationEntry>Louis, Etienne, François Héricart-Ferrand de Thury 1776 - 1854</relationEntry>
+            <descriptiveNote>
+               <p>Base de données des députés français depuis 1789</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <cpfRelation cpfRelationType="identity"
+            xlink:href="http://isni.org/isni/000000012099942X" xlink:type="simple">
+            <relationEntry>0000 0001 2099 942X</relationEntry>
+            <descriptiveNote>
+               <p>Fiche ISNI</p>
+            </descriptiveNote>
+         </cpfRelation>
          <cpfRelation cpfRelationType="associative" xlink:href="travauxDeParis1811" xlink:type="simple">
             <relationEntry>Direction des travaux de Paris (Paris)</relationEntry>
             <dateRange>
-               <fromDate standardDate=""></fromDate>
-               <toDate standardDate=""></toDate>
+               <fromDate standardDate="1824">1824</fromDate>
+               <toDate standardDate="1830">1830</toDate>
             </dateRange>
             <descriptiveNote>
                <p>@isDirectorOf@</p>
-               <p>Nommé par le décret impérial du 13 janvier 1811, Louis Bruyère fut confirmé à la direction des travaux de Paris sous la première, pendant les Cent jours, et la Restauration. Il offrit sa démission à la fin de 1819, mais ne fut remplacé qu’en mars 1820.</p>
+               <p></p>
             </descriptiveNote>
          </cpfRelation>
          <cpfRelation cpfRelationType="temporal-later" xlink:href="ecPerson0002" xlink:type="simple">

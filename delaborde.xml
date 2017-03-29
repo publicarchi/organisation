@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="urn:isbn:1-931666-33-4 schemas/cpf.xsd">
+   <control>
+      <recordId>person0004</recordId>
+      <maintenanceStatus>new</maintenanceStatus>
+      <publicationStatus>inProcess</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>emchateau</agencyName>
+      </maintenanceAgency>
+      <languageDeclaration>
+         <language languageCode="fre"/>
+         <script scriptCode="Latn"/>
+      </languageDeclaration>
+      <conventionDeclaration>
+         <abbreviation>ISAAR(CPF)</abbreviation>
+         <citation  xlink:href="http://www.ica.org" xlink:type="simple">Norme internationale pour les notices d’autorité archivistiques (Collectivités, personnes, familles) du Conseil international des archives, 2ème édition, 1996.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z44-060</abbreviation>
+         <citation>Norme NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+            structure des vedettes des collectivités auteur. Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange d’information -- Représentation de la date et de
+            l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_Z44-061</abbreviation>
+         <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>ISO8601</abbreviation>
+         <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
+         <citation>Norme NF Z 44-081, septembre 1993, Documentation – catalogage des documents cartographiques – Formes et structure des vedettes noms géographiques.</citation>
+      </conventionDeclaration>
+      
+      <localControl localType="detailLevel">
+         <term>detailed</term>
+      </localControl>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>revised</eventType>
+            <eventDateTime standardDateTime="2017-02-03">3 février 2017</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>created</eventType>
+            <eventDateTime standardDateTime="2016-10-11">11 octobre 2016</eventDateTime>
+            <agentType>human</agentType>
+            <agent>Emmanuel Château-Dutier</agent>
+            <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      
+      <sources>
+         <source>
+            <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Joseph-Daniel Guigniaut. « Notice historique sur la vie et les travaux de M. le Comte Alexandre de Laborde par Guigniaut. » In Notice historique sur la vie et les travaux de M. le Comte Alexandre de Laborde par Guigniaut. Paris : Firmin-Didot frères, 1860.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>Alexandre de Laborde. Projets d’embellissemens de Paris et de travaux d’utilité publique, concernant les ponts et chaussées, par le Cte Alexandre de Laborde,... Paris : Impr. de A. Belin, 1816.</sourceEntry>
+         </source>
+      </sources>
+   </control>
+   
+   <cpfDescription>
+      <identity>
+         <entityId>ISNI 0000 0001 2277 6713</entityId>
+         <entityType>person</entityType>
+         <nameEntry localType="preferredFormForProject">
+            <part>Laborde, Alexandre de (1773-1842)</part>
+            <authorizedForm>AFNOR_Z44-061</authorizedForm>
+         </nameEntry>
+      </identity>
+      <description>
+         <existDates>
+            <dateRange>
+               <fromDate standardDate="1773-09-17">17 septembre 1773</fromDate><!-- Paris -->
+               <toDate standardDate="1842-10-20">20 octobre 1842</toDate><!-- Paris -->
+            </dateRange>
+         </existDates>
+         <biogHist>
+            <p>Alexandre de Laborde est un archéologue et homme politique français.</p>
+            <p>Auditeur au Conseil d’État en 1808, Alexandre de Laborde avait accompagné l’empereur en Espagne. Créé comte de l’empire le 9 janvier 1810, il fut par la suite employé comme secrétaire de la délégation extraordinaire chargée de demander officiellement la main de l’archiduchesse Marie-Louise à Vienne. À son retour en France, Alexandre de Laborde avait été chargé de la commission de liquidation des comptes de la Grande armée. Peu avant sa nomination à la direction des travaux des Ponts et chaussées à Paris, de Laborde était encore auditeur au Conseil d’État depuis 1808, dont il était le doyen. On raconte que l’Empereur passant un jour dans la grande galerie des Tuileries, où était rassemblé son Conseil d’État, l’apercevant se prit à dire : « Ah ! Voilà l’aîné de mes auditeurs. » Auquel répondit, à bout portant, le vétéran des auditeurs par « Oui, sire, et le cadet de vos soucis. » Quelques jours plus tard, il fut nommé maître des requêtes avant d’être chargé de la direction du service des Ponts et chaussées pour le département de la Seine, service qui comprenait, outre les routes et les ponts, les quais, le canal de Saint- Maur et le canal de l’Ourcq avec la distribution ordinaire et extraordinaire des eaux de Paris, et comme moyen d’exécution, un budget de près de neuf millions d’alors.</p>
+            <p>On sait peu de choses de la courte direction d’Alexandre de Laborde. Il proposa plusieurs projets de modernisation et d’embellissements de la capitale, dont d’importants travaux relatifs à l’adduction d’eau avec notamment la construction d’aqueducs allant au centre de Paris. Plusieurs lavoirs publics devaient être ouverts sur le quai des Invalides, ainsi qu’un nouveau réservoir sur les hauteurs de Chaillot. Les projets concernent aussi l’édification de spectaculaires fontaines sur le boulevard Montmartre, la Place des Vosges et le Palais Royal ainsi que la mise en place de pompes à feu. Dans le domaine de la voirie, Laborde recommandait la création de voies équestres dans le quartier des Champs- Élysées, de nouveaux trottoirs ou un meilleur pavement des rues par exemple : « Paris seul conserve son ancien pavé, raboteux et glissant ». Pour hâter l’exécution de projets qu’on ne lui demandait pas, il jugea bon de les publier sous la forme d’un volume <span style="italic">in-folio</span> accompagné de planches sous le titre <span style="italic">Projets d’embellissements de Paris</span>. Il fit en outre imprimer et distribuer ce Mémoire qui par sa nature et en raison de la nouvelle position de son auteur ne pouvait être livré à la publicité. C’était une infraction aux règles administratives dont on rapporte que l’empereur fut violemment irrité, il menaça de Laborde d’une destitution et le volume fut saisi. L’ouvrage fut redonné à son auteur en 1814 par le comte Beugnot (1761-1835) lorsque celui-ci fut nommé directeur général de la police. De Laborde se contenta d’y ajouter une nouvelle page de titre et quatre pages de préface et l’ouvrage, d’abord censuré, fut définitivement publié en 1816. Officier de la Légion d’honneur en 1813, Alexandre de Laborde fut appelé la même année à l’Institut de France dans la classe d’histoire et de littérature ancienne et se consacra à ses publications.</p>
+         </biogHist>
+      </description>
+      <relations>
+         <cpfRelation cpfRelationType="identity"
+            xlink:href="http://data.bnf.fr/ark:/12148/cb11994085w" xlink:type="simple">
+            <relationEntry>Alexandre de Laborde (1773-1842)</relationEntry>
+            <descriptiveNote>
+               <p>Notice data.bnf.fr [Alexandre de Laborde (1773-1842),consultée le 11 octobre 2016]</p>
+            </descriptiveNote>
+         </cpfRelation>        
+         <cpfRelation cpfRelationType="associative" xlink:href="pontsEtChausseesParis1811" xlink:type="simple">
+            <relationEntry>Direction des Ponts et chaussées de Paris (Paris)</relationEntry>
+            <dateRange>
+               <fromDate standardDate="1811-01-13">13 janvier 1811</fromDate>
+               <toDate standardDate="1813">1813</toDate>
+            </dateRange>
+            <descriptiveNote>
+               <p>@isDirectorOf@</p>
+               <p>Nommé par le décret impérial du 13 janvier 1811, en même temps que Louis Bruyère, le directeur des Ponts et chaussées était quant à lui placé sous la surveillance du Préfet.</p>
+            </descriptiveNote>
+         </cpfRelation>
+         <resourceRelation resourceRelationType="creatorOf" xlink:href="@todo"
+            xlink:type="simple">
+            <relationEntry localType="archival">@todo</relationEntry>
+         </resourceRelation>
+      </relations>
+   </cpfDescription>
+</eac-cpf>

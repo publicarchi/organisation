@@ -16,14 +16,31 @@
             <script scriptCode="Latn"></script>
         </languageDeclaration>
         <conventionDeclaration>
+            <abbreviation>ISAAR(CPF)</abbreviation>
+            <citation  xlink:href="http://www.ica.org" xlink:type="simple">Norme internationale pour les notices d’autorité archivistiques (Collectivités, personnes, familles) du Conseil international des archives, 2ème édition, 1996.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_NF_Z44-060</abbreviation>
+            <citation>Norme NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+                structure des vedettes des collectivités auteur. Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange d’information -- Représentation de la date et de
+                l’heure.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
             <abbreviation>AFNOR_Z44-061</abbreviation>
             <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>ISO8601</abbreviation>
+            <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+        </conventionDeclaration>
+        <conventionDeclaration>
+            <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
+            <citation>Norme NF Z 44-081, septembre 1993, Documentation – catalogage des documents cartographiques – Formes et structure des vedettes noms géographiques.</citation>
         </conventionDeclaration>
         
         <localControl localType="detailLevel">
             <term>detailed</term>
         </localControl>
-        
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>created</eventType>
@@ -56,15 +73,16 @@
                 </dateRange>
             </existDates>
             <place>
-                <placeEntry>Établie auprès du ministère de l’Intérieur à partir de 1811, la Direction des travaux de Paris fut créée par Montalivet pour donner plus d’activité aux travaux.</placeEntry>
+                <placeRole>Siège</placeRole>
+                <placeEntry>Paris</placeEntry>
             </place>
             <legalStatus>
-                <term>Conservation</term>
+                <term>Conservation</term><!-- @question vocabulaire ? -->
             </legalStatus>
             <function>
-                <term>administration</term><!-- tutelle ?-->
+                <term>administration</term><!-- @todo tutelle ?-->
                 <descriptiveNote>
-                    <p>Chargée de l’administration des marbres et du gardiennage d’un certain nombre de moneuments à Paris.</p>
+                    <p>La Conservation était chargée de l’approvisionnement des marbres pour les monuments publics et de la surveillance d’un certain nombre d’édifices à Paris ou dans le département de la Seine.</p>
                 </descriptiveNote>
             </function>
             <occupation>
@@ -74,7 +92,9 @@
                 </descriptiveNote>
             </occupation>
             <mandate>
-                <term>@todo</term>
+                <descriptiveNote>
+                    <p>le 10 novembre 1814</p>
+                </descriptiveNote>
             </mandate>
             <biogHist>
                 <p>La Conservation des Monuments et des Mabres fut créée pour Charles Lafolie le 10 novembre 1814. Celle-ci fut absorbée par la Direction des travaux de Paris en 1823.</p>
@@ -82,13 +102,31 @@
         </description>
         <relations>
             <cpfRelation cpfRelationType="hierarchical-parent" xlink:href="@todo" xlink:type="simple">
-                <relationEntry>France. Intérieur (Ministère), 1814-1830.</relationEntry>
+                <relationEntry>France. Ministère de l’Intérieur (1795-)</relationEntry>
                 <dateRange>
                     <fromDate standardDate="1814-11-10">10 novembre 1814</fromDate>
                     <toDate standardDate="1823">1823</toDate>
                 </dateRange>
             </cpfRelation>
-            <!-- @todo -->
+            <cpfRelation cpfRelationType="temporal-later" xlink:href="admi0001" xlink:type="simple">
+                <relationEntry>France. Direction des travaux de Paris (1811-1830)</relationEntry>
+                <dateRange>
+                    <fromDate standardDate="1823">1823</fromDate>
+                </dateRange>
+            </cpfRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:href="FRAN_IR_002431#d_200_3"
+                xlink:type="simple">
+                <relationEntry localType="archival">F/13/755 Fournitures de marbres pour des sculptures ou des monuments. 1817-1830</relationEntry>
+            </resourceRelation>
+            <resourceRelation resourceRelationType="creatorOf" xlink:href="FRAN_IR_002431#d_201"
+                xlink:type="simple">
+                <relationEntry localType="archival">F/13/756-F/13/762 – Marbres français et étrangers. 1678-1751 et 1812-1839.</relationEntry>
+            </resourceRelation><resourceRelation resourceRelationType="creatorOf" xlink:href="FRBNF_IR_protoLD_DGEARC_003"
+                xlink:type="simple">
+                <relationEntry localType="archival">Plans du quart sud-ouest du Quadrilatère Richelieu
+                    (1850-1940)</relationEntry>
+            </resourceRelation>
+            <!-- @todo F/13/530, F/13/753-766, F/13*/27/bis -->
         </relations>
     </cpfDescription>
 </eac-cpf>

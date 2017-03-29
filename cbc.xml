@@ -35,9 +35,23 @@
         </maintenanceHistory>
         
         <sources>
-            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple">
-                <sourceEntry>CHATEAU, Emmanuel. Théorie et pratique de l’architetcure publique en France. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France (1795-1848) Thèse de doctorat de l’École pratique des hautes études sous la direction de Jean-Michel Leniaud, 2016.</sourceEntry>
-                <!-- TODO lister les sources -->
+            <source>
+                <sourceEntry>Emmanuel Château-Dutier. Le Conseil des bâtiments civils et l’administration de l’architecture publique en France, dans la première moitié du XIXe siècle. Thèse de doctorat en histoire de l’art de l’École pratique des hautes études, sous la direction de Jean-Michel Leniaud. Paris, 2016.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Robin Middelton et Marie-Noelle Baudouin-Matuszek. Jean Rondelet, The Architect As Technician. New Haven : Yale University Press, 2007.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Lauren Marie O’Connell. Architecture and the French Revolution : Change and Continuity Under the Conseil des bâtiments civils, 1795-1799. PHD, Cornell University, 1989.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Georges Teyssot. « Il sistema dei Bâtiments civils in Francia », in Le Macchine imperfette. Architettura, programma, istituzioni nel XIX secolo, Georges Teyssot et Paolo Morachiello (dir.).  Dipartimento di analisi critica e storica dell’Istituto universitario di Architettura di Venezia, actes du colloque de Venise, octobre 1977. Rome : Officina Edizioni, 1980., p. 81-129.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Yvette Krebs Billig. Le Conseil des bâtiments civils au XIXe siècle, un regard sur le monde des bâtiments civils à travers les procès-verbaux de séance (1815-1830). Thèse de 3ème Cycle, sous la direction de Bruno Foucart, Université de Paris X-Nanterre, U.E.R. d’Histoire de l’Art, 1986.</sourceEntry>
+            </source>
+            <source>
+                <sourceEntry>Charles-Pierre Gourlier, Charles-Auguste Questel. Notice historique sur le service des travaux et sur le Conseil général des bâtiments civils depuis la création de ces services en l’an IV (1795) jusqu’à 1895. Paris : Imprimerie Nationale, 1895.</sourceEntry>
             </source>
         </sources>
     </control>
@@ -46,7 +60,7 @@
             <entityType>corporateBody</entityType>
             <nameEntry>
                 <part>France. Conseil des bâtiments civils (1795-1968)</part>
-                <authorizedForm>conventionDeclaration</authorizedForm>
+                <authorizedForm>AFNOR_Z44-061</authorizedForm>
             </nameEntry>
         </identity>
         <description>

@@ -14,9 +14,28 @@
          <script scriptCode="Latn"/>
       </languageDeclaration>
       <conventionDeclaration>
+         <abbreviation>ISAAR(CPF)</abbreviation>
+         <citation  xlink:href="http://www.ica.org" xlink:type="simple">Norme internationale pour les notices d’autorité archivistiques (Collectivités, personnes, familles) du Conseil international des archives, 2ème édition, 1996.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z44-060</abbreviation>
+         <citation>Norme NF Z 44-060, octobre 1983, Catalogue d’auteurs et d’anonymes : forme et
+            structure des vedettes des collectivités auteur. Norme ISO 8601:2004 Éléments de données et formats d’échange -- Échange d’information -- Représentation de la date et de
+            l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
          <abbreviation>AFNOR_Z44-061</abbreviation>
          <citation>AFNOR NF Z44-061 Juin 1986 Documentation – Catalogage – Forme et structure des vedettes noms de personnes, des vedettes titres, des rubriques de classement et des titres forgés.</citation>
       </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>ISO8601</abbreviation>
+         <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+      </conventionDeclaration>
+      <conventionDeclaration>
+         <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
+         <citation>Norme NF Z 44-081, septembre 1993, Documentation – catalogage des documents cartographiques – Formes et structure des vedettes noms géographiques.</citation>
+      </conventionDeclaration>
+      
       <localControl localType="detailLevel">
          <term>detailed</term>
       </localControl>
@@ -35,6 +54,7 @@
             <eventDescription>Notice XML créée dans le cadre d’un prototype des Archives Nationales</eventDescription>
          </maintenanceEvent>
       </maintenanceHistory>
+      
       <sources>
          <source>
             <sourceEntry>Clémence Dufour-Montalescot. Louis Bruyère et la Direction des travaux de Paris. Thèse pour le diplôme d’archiviste paléographe de l’École Nationale des Chartes sous la direction de Jean-Michel LENIAUD, 1998.</sourceEntry>
@@ -48,12 +68,18 @@
          <source>
             <sourceEntry>Henri Navier. Notice sur M. Bruyère [Extrait des Annales des Ponts et Chaussées]. Paris : Carilian Gœury, 1833.</sourceEntry>
          </source>
+         <source>
+            <sourceEntry>Pierre François Léonard Fontaine. Journal : 1799-1853. Paris : École nationale supérieure des beaux- arts ; Institut français d’architecture ; Société de l’histoire de l’art français, 1987, T. I, 21 janvier 1811.</sourceEntry>
+         </source>
+         <source>
+            <sourceEntry>FRAN, F21 1991, Décret impérial du 13 janvier 1811.</sourceEntry>
+         </source>
       </sources>
    </control>
    
    <cpfDescription>
       <identity>
-         <entityId>ISNI 0000 0001 2131 4074</entityId>
+         <entityId>bruyere</entityId>
          <entityType>person</entityType>
          <nameEntry localType="preferredFormForProject">
             <part>Bruyère, Louis (1758-1831)</part>
@@ -68,9 +94,10 @@
             </dateRange>
          </existDates>
          <biogHist>
-            <p>Issu d’une famille bourgeoise de Lyon, Louis Bruyère reçut une formation d’architecte avant de d’intégrer l’École royale des ponts et chaussées de Paris en 1783. Nommé ingénieur ordinaire à Tours en 1786, il fut ensuite affecté au Mans en 1789. Dès 1799, il enseigna à l’École des ponts et chaussées comme professeur de stéréotomie et de l’art des constructions. À la même époque, il fut chargé de la fonction de secrétaire du Conseil général des ponts et chaussées.</p>
-            <p>Lorsque le ministre Jean-Pierre de Montalivet devint ministre de l’Intérieur, après avoir quitté la direction générale des Ponts et chaussées, il voulut encadrer de manière puissante les travaux alors entrepris à Paris. Il provoqua la création de deux directions générale, l’une pour les travaux publics, l’autre pour les travaux de Paris. Louis Bruyère fut nommé, sur sa proposition, directeur général des Travaux de Paris, et maître des requêtes au Conseil d’État pour l’occasion, par décret impérial du 13 janvier 1811. Dès lors, il dirigea directement les nombreux travaux alors en cours à Paris. L’administration de Bruyère est associée à de nombreuses réalisations de grande ampleur à Paris sous l’Empire comme la construction des marchés ou des fontaines publics. Sa direction fut active et zélée au point d’avoir été parfois accusé d’autoritarisme.</p>
-            <p>Fortement mis en cause pendant la première Restauration, puis les Cent jours, puis encore en 1817, Bruyère parvint à se maintenir à la tête de la Direction des travaux de Paris. À la fin de 1819, sans doute de guerre lasse, Bruyère qui était sujet à de graves attaques de goutte, fut forcé de renoncer aux fonctions de directeur général des travaux publics de Paris. Le ministre de l’Intérieur refusa pendant plusieurs mois, d’accepter sa démission, et ce ne fut que le 10 mars 1820 qu’une ordonnance du roi nomma à sa place. Louis Bruyère fut alors appelé à siéger au Conseil général des ponts et chaussées en tant qu’Inspecteur général, fonctions qu’il conservait jusqu’en 1830. Mais sa santé ne lui permit pas d’assister aux séances de cette assemblée ; mis en retraite le 19 octobre 1830, il mourut le 31 décembre 1831. En quittant le service des travaux de Paris, Bruyère avait reçu du conseil municipal, une pension viagère, en récompense de ses services. Il publia dans ses <span style="italic">Études sur l’art des constructions</span>, en deux volumes <span style="italic">in-folio</span> parus de 1823 à 1828, douze mémoires relatifs aux travaux hydrauliques et aux constructions civiles qui témoignaient notamment de son administration.</p>
+            <p>Issu d’une famille bourgeoise de Lyon, Louis Bruyère reçut une formation d’architecte avant d’intégrer l’École royale des ponts et chaussées de Paris en 1783. Nommé ingénieur ordinaire à Tours en 1786, il fut ensuite affecté au Mans en 1789. Dès 1799, il enseigna à l’École des ponts et chaussées comme professeur de stéréotomie et de l’art des constructions. À la même époque, il fut chargé de la fonction de secrétaire du Conseil général des ponts et chaussées.</p>
+            <p>Tandis que les travaux parisiens étaient appelés à connaître un développement considérable, le ministre de l’Intérieur, Jean-Pierre de Montalivet qui avait été précédemment directeur général des Ponts et chaussées, voulut les encadrer puissamment. Il provoqua la création de deux directions générale, l’une pour les travaux publics, l’autre pour les travaux de Paris. Louis Bruyère fut nommé, sur sa proposition, directeur général des Travaux de Paris, et maître des requêtes au Conseil d’État pour l’occasion, par décret impérial du 13 janvier 1811. Dès lors, il dirigea directement les nombreux travaux alors en cours à Paris.</p>
+            <p>Au moyen de ce décret, Montalivet avait pu confier cette direction spéciale à un homme dont il était assuré que les vues s’accorderaient avec les siennes. La nomination de Louis Bruyère était commandée par le besoin de mettre un ordre sévère dans les travaux d’architecture civile sur lesquels le ministre de l’Intérieur ne pouvait exercer lui-même une surveillance minutieuse. Elle était justifiée par l’étude spéciale, et même la pratique de l’architecture, auxquelles l’ingénieur s’était autrefois livré. Elle l’était surtout, d’après Navier un de ses biographes, « par l’intégrité et la fermeté de son caractère, par la rectitude et la justesse de son esprit ». Fontaine regrettait « l’étendue du déshonneur auquel l’un des plus beaux-arts de la société allait être réduit en passant sous la domination d’un bâtard de sa famille. » Quoiqu’il en soit, l’administration de Bruyère fut associée à de nombreuses réalisations de grande ampleur à Paris sous l’Empire comme la construction des marchés ou des fontaines publiques.</p>
+            <p>Sa direction fut active et zélée, au point d’avoir été parfois accusé d’autoritarisme. Fortement mis en cause pendant la première Restauration, puis les Cent jours, et de nouveau en 1817, Bruyère parvint à se maintenir à la tête de la Direction des travaux de Paris. À la fin de 1819, sans doute de guerre lasse, Bruyère qui était sujet à de graves attaques de goutte, fut forcé de renoncer aux fonctions de directeur général des Travaux publics de Paris. Le ministre de l’Intérieur refusa pendant plusieurs mois, d’accepter sa démission, et ce ne fut que le 10 mars 1820 qu’une ordonnance du roi nomma à sa place. Louis Bruyère fut alors appelé à siéger au Conseil général des ponts et chaussées en tant qu’Inspecteur général, fonctions qu’il conservait jusqu’en 1830. Mais sa santé ne lui permit pas d’assister aux séances de cette assemblée ; mis en retraite le 19 octobre 1830, il mourut le 31 décembre 1831. En quittant le service des travaux de Paris, Bruyère avait reçu du conseil municipal, une pension viagère, en récompense de ses services. Il publia dans ses <span style="italic">Études sur l’art des constructions</span>, en deux volumes <span style="italic">in-folio</span> parus de 1823 à 1828, douze mémoires relatifs aux travaux hydrauliques et aux constructions civiles qui témoignaient notamment de son administration.</p>
          </biogHist>
       </description>
       <relations>
@@ -80,7 +107,14 @@
             <descriptiveNote>
                <p>Notice data.bnf.fr [http://data.bnf.fr/ark:/12148/cb103021113,consultée le 11 octobre 2016]</p>
             </descriptiveNote>
-         </cpfRelation>        
+         </cpfRelation>
+         <cpfRelation cpfRelationType="identity"
+            xlink:href="http://www.isni.org/isni/0000000121314074" xlink:type="simple">
+            <relationEntry>0000 0001 2131 4074</relationEntry>
+            <descriptiveNote>
+               <p>Fiche ISNI</p>
+            </descriptiveNote>
+         </cpfRelation>
          <cpfRelation cpfRelationType="associative" xlink:href="travauxDeParis1811" xlink:type="simple">
             <relationEntry>Direction des travaux de Paris (Paris)</relationEntry>
             <dateRange>
@@ -89,14 +123,14 @@
             </dateRange>
             <descriptiveNote>
                <p>@isDirectorOf@</p>
-               <p>Nommé par le décret impérial du 13 janvier 1811, Louis Bruyère fut confirmé à la direction des travaux de Paris sous la première, pendant les Cent jours, et la Restauration. Il offrit sa démission à la fin de 1819, mais ne fut remplacé qu’en mars 1820.</p>
+               <p>Nommé par le décret impérial du 13 janvier 1811, Louis Bruyère fut confirmé à la direction des travaux de Paris sous la première Restauration, puis pendant les Cent jours, et par la Seconde Restauration. Il offrit sa démission à la fin de 1819, mais ne fut remplacé qu’en mars 1820.</p>
             </descriptiveNote>
          </cpfRelation>
          <cpfRelation cpfRelationType="temporal-later" xlink:href="ecPerson0002" xlink:type="simple">
             <relationEntry>Hély d’Oissel, @todo</relationEntry>
             <date standardDate="1820-03-10">10 mars 1820</date>
             <descriptiveNote>
-               <p>Hély d’Oissel fut nommé par une ordonnance du 10 mars 1820 à peu près aux mêmes fonctions, il resta quelques années à la tête de la direction des travaux de Paris.</p>
+               <p>Hély d’Oissel fut nommé, par une ordonnance du 10 mars 1820, à peu près aux mêmes fonctions, il resta quelques années à la tête de la direction des travaux de Paris.</p>
             </descriptiveNote>
          </cpfRelation>
          <resourceRelation resourceRelationType="creatorOf" xlink:href="@todo"
