@@ -11,8 +11,8 @@
             <agencyName>emchateau</agencyName>
         </maintenanceAgency>
         <languageDeclaration>
-            <language languageCode="fre"></language>
-            <script scriptCode="Latn"></script>
+            <language languageCode="fre"/>
+            <script scriptCode="Latn"/>
         </languageDeclaration>
         <conventionDeclaration>
             <abbreviation>ISAAR(CPF)</abbreviation>
@@ -30,7 +30,7 @@
         </conventionDeclaration>
         <conventionDeclaration>
             <abbreviation>ISO8601</abbreviation>
-            <citation> Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
+            <citation>Norme ISO 8601:2004 Éléments de données et formats d’échange — Échange d’information – Représentation de la date et de l’heure.</citation>
         </conventionDeclaration>
         <conventionDeclaration>
             <abbreviation>AFNOR_NF_Z-44-081</abbreviation>
@@ -92,15 +92,19 @@
                 </dateRange>
             </existDates>
             <place>
-                <placeEntry>Chargée de toutes les affaires d’architecture ou de construction concernant les bâtiments civils ou les travaux publics qui s’exécutent en France.</placeEntry>
+                <placeEntry>Maison des travaux publics [Palais Bourbon]</placeEntry>
             </place>
             <legalStatus>
                 <term>Commission exécutive</term>
+                <!-- @rmq Créées en remplacement des ministères par le gouvernement révolutionnaire, les commissions excutives constituent une catégorie d’organisation distincte des ministères -->
+                <descriptiveNote>
+                    <p>Commission exécutive chargée de toutes les affaires d’architecture ou de construction concernant les bâtiments civils ou les travaux publics qui s’exécutent en France.</p>
+                </descriptiveNote>
             </legalStatus>
             <function>
                 <term>surveillance</term><!-- tutelle ?-->
                 <descriptiveNote>
-                    <p>La Commission des travaux publics avait la surveillance administratives sur toutes les affaires architecturales.</p>
+                    <p>La Commission des travaux publics avait la tutelle et la surveillance administrative de toutes les affaires architecturales et constructives.</p>
                 </descriptiveNote>
             </function>
             <occupation>
@@ -110,7 +114,10 @@
                 </descriptiveNote>
             </occupation>
             <mandate>
-                <term>La loi du 12 germinal an II (1er avril 1794) qui supprimait le Conseil exécutif provisoire le remplaça par douze Commissions exécutives. Six de ces commissions, dont la Commission des travaux publics, étaient chargées des attributions précédemment dévolues au ministre de l’Intérieur. Elles fonctionnèrent jusqu’au 12 brumaire an IV (3 novembre 1795).</term>
+                <citation>loi du 12 germinal an II (1er avril 1794)</citation>
+                <descriptiveNote>
+                    <p>La loi du 12 germinal an II (1er avril 1794) qui supprimait le Conseil exécutif provisoire le remplaça par douze commissions exécutives. Six de ces commissions, dont la Commission des Travaux publics, étaient chargées des attributions précédemment dévolues au ministère de l’Intérieur. Elles fonctionnèrent jusqu’au 12 brumaire an IV (3 novembre 1795).</p>
+                </descriptiveNote>
             </mandate>
             <structureOrGenealogy>
                 <p>1. Composition.</p><!-- TODO détailler -->

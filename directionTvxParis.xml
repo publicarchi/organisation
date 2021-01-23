@@ -81,7 +81,10 @@
                 <placeEntry>Hôtel de la Direction des travaux de Paris (Paris)</placeEntry>
             </place>
             <legalStatus>
-                <term>direction générale</term>
+                <term>Service d’administration centrale</term>
+            </legalStatus>
+            <legalStatus>
+                <term>Direction générale</term>
             </legalStatus>
             <functions>
                 <p>Chargée de l’administration directe de tous les travaux publics qui s’exécutaient dans la ville de Paris, la direction générale des Travaux de Paris dépendait du ministre de l’Intérieur mais fonctionnait comme un petit ministère. Le directeur des Ponts et chaussées était quant à lui placé sous la surveillance du Préfet.</p>
